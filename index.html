@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--------------------------------------------------------------------------------------------------------------------->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS Include-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity=
+            "sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--The page title-->
+    <title>Exercise 1 - Internet Programming Course</title>
+</head>
+<body>
+
+<div class="bg-primary text-center pt-2 pb-2 text-light">
+    <h1> Mohamad Ektelat</h1>
+    <h3 class="d-none d-sm-block"> Resume </h3>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://docs.google.com/document/d/1jDe11_B5eVWUGkrE9EINqV1NQQ07bc6p/edit">
+            Home
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls=
+                "navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#">Who is submitting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/mohamad-ektelat-62b55b1b8/" target="_blank">
+                        Linkedin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/mohamadektelat" target="_blank">Github</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--The main content of the page-->
+<div class="container-fluid">
+    <!-- row1 -->
+    <div class="row p-2">
+        <!-- col1 in row1 -->
+        <div class="col-12 col-md-12 col-lg-4">
+            <img src="/images/me.jpg" class="img-fluid" alt="">
+            <h2>1.About Me</h2>
+            <ul>
+                <li>Mohamad Waled Ektelat</li>
+                <li>Born: August 9th, 1998</li>
+            </ul>
+            <p>Computer Science student, with an unbridled desire for programming and a strong foundation in math and
+                coding logic, a full energetic self-learner, a collaborator team player, skilled in leadership, filled
+                with passion and creativity as a programmer.</p>
+        </div>
+        <!-- col2 in row1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <h2>2.Skills</h2>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Domains</th>
+                    <th scope="col">Technology</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Front-End Development</td>
+                    <td>HTML, Bootstrap</td>
+                </tr>
+                <tr>
+                    <td>Programming Languages</td>
+                    <td>C++, C, Java, Python, Assembly, C#</td>
+                </tr>
+                <tr>
+                    <td>IDE’s (Development Environments)</td>
+                    <td>Visual Studio, PyCharm,
+                        Intellij IDEA, Eclipse, WebStorm</td>
+                </tr>
+                <tr>
+                    <td>Operating Systems</td>
+                    <td>Windows, Linux</td>
+                </tr>
+                </tbody>
+            </table>
+            <h2>3.Education</h2>
+            <ul>
+                <li>Hadassah Academic College in Jerusalem 2019</li>
+                <li>Dabburiya High school 2013 - 2016</li>
+            </ul>
+        </div>
+        <!-- col3 in row1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <h2>4.Work Experience</h2>
+            <ul>
+                <li>2016 - 2017: Worker at Dabburiyas Retirement Home helping the elderly with their rehabilitation
+                    and treatment.</li>
+                <li>2017 - 2020: Worker at Tnuva Factory to make money for my education (In the study Vacations).</li>
+                <li>2020 - 2021: Working as a tutor at Hadassah Academic College for: C++ (introduction to computer
+                    science),
+                    Digital Systems, Mathematical Tools for Computer Science .</li>
+            </ul>
+            <h2>5.Languages</h2>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Arabic</th>
+                    <th scope="col">Hebrew</th>
+                    <th scope="col">English</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="col">Mother Tongue</th>
+                    <th scope="col">Fluent</th>
+                    <th scope="col">Very Good</th>
+                </tr>
+                </tbody>
+            </table>
+            <h2>6.Hopis</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Driving</li>
+                <li>Camping</li>
+                <li>Swimming</li>
+            </ul>
+        </div>
+    </div>
+<!--------------------------------------------------------------------------------------------------------------------->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Name: Mohamad Ektelat.</p>
+                    <p>Id:208223826</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--Java Script and css includes-->>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
